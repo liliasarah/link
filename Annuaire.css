@@ -1,0 +1,68 @@
+.Annuaire {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.Annuaire h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #333; /* Dark text color */
+  margin-bottom: 20px;
+}
+
+.avocat-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.avocat-col {
+  flex: 0 0 calc(33.33% - 20px);
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 10px; /* Slightly rounded corners */
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.avocat-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+  border-radius: 10px 10px 0 0; /* Rounded top corners */
+}
+
+.avocat-content {
+  padding: 20px;
+}
+
+.avocat-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.avocat-specialite {
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 767px) {
+  .avocat-col {
+    width: 100%;
+  }
+}

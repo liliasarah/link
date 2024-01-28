@@ -1,0 +1,168 @@
+.contenaire {
+  padding-bottom: 10px;
+}
+
+.cards {
+  padding: 4rem;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.dd {
+  flex: 0 0 calc(50% - 30px);
+  margin: 15px;
+  text-align: left;
+}
+
+h5 {
+  margin: 20px;
+  background-color: black;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  padding: 8px 20px;
+  font-weight: 100;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+#pp {
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.avocats {
+  background-color: black;
+}
+
+/* Styles for the Carousel */
+.carousel {
+  width: 100%;
+}
+
+.carousel-inner {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.carousel-item {
+  width: 100%;
+  padding: 20px;
+}
+
+h6 {
+  padding-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-weight: lighter;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.carousel-caption h3,
+.carousel-caption p {
+  color: white;
+}
+
+/* Ajoutez ces styles pour le survol des éléments Carousel.Item */
+.carousel-item:hover .carousel-caption {
+  opacity: 1;
+}
+
+/* Ajoutez ces styles pour le fond semi-transparent du texte */
+.carousel-caption {
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Ajoutez ces styles pour le texte */
+.carousel-caption h3,
+.carousel-caption p {
+  color: white;
+  margin: 0;
+}
+
+/* Ajoutez ces styles pour fixer la hauteur des images dans le carrousel */
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Media queries pour ajuster les styles pour les petits écrans (moins de 600px) */
+@media screen and (max-width: 961px) {
+  .cards {
+    padding: 2rem; /* Ajuster la marge pour les petits écrans */
+  }
+
+  .dd {
+    flex: 0 0 100%; /* Utiliser 100% pour les petits écrans */
+    margin: 15px;
+  }
+
+  h5 {
+    font-size: 20px; /* Réduire la taille de la police pour les petits écrans */
+  }
+
+  #pp {
+    font-size: 14px; /* Réduire la taille de la police pour les petits écrans */
+  }
+
+  h6 {
+    font-size: 20px; /* Réduire la taille de la police pour les petits écrans */
+  }
+
+  .carousel-item img {
+    height: 300px; /* Ajuster la hauteur pour les petits écrans */
+  }
+}
+/* Ajoutez ces styles pour fixer la hauteur des images dans le carrousel */
+.carousel-item img {
+  height: 500px; /* Ajustez la hauteur selon vos préférences */
+  object-fit: cover; /* Pour conserver les proportions de l'image */
+}
+
+/* Media queries pour ajuster la hauteur des images pour les petits écrans (moins de 600px) */
+@media screen and (max-width: 961px) {
+  .carousel-item img {
+    height: 600px; /* Ajustez la hauteur pour les petits écrans */
+  }
+}
+/* Ajoutez ces styles pour ajuster la disposition des images pour les petits écrans (moins de 600px) */
+@media screen and (max-width: 961px) {
+  .carousel-inner {
+    flex-direction: column; /* Utiliser une disposition en colonnes pour les petits écrans */
+  }
+
+  .carousel-item {
+    width: 100%; /* Ajuster la largeur pour occuper toute la largeur disponible */
+    box-sizing: border-box; /* Inclure la bordure et le remplissage dans la largeur de 100% */
+  }
+}

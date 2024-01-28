@@ -1,0 +1,141 @@
+/* App.css */
+.bloc {
+  background-color: #11100fae;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  #pho {
+    
+      border-radius: 50%;
+      height: 5% ; /* Ajustez la taille selon vos besoins */
+      width: 10%; /* Ajustez la taille selon vos besoins pour la rendre parfaitement ronde */
+      object-fit: cover; /* Ajuste la manière dont l'image est affichée pour conserver les proportions */
+    
+  }
+  #mail{
+    margin-bottom: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  }
+  #prdv{
+    background-color: rgb(81, 191, 23);
+   
+  }
+  #exp{
+    color: white;
+    
+    margin-bottom: 10px;
+  }
+  #comp{
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  }
+#num{
+  margin-top: 8px;
+  color: white;
+  margin-bottom: 8px;
+}
+  /* Ajoutez d'autres styles selon vos préférences */
+  h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    color: #ccc;
+
+  }
+  #nom{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+    font-size:xx-large;
+    margin-bottom: 20px;
+  
+    
+  }
+  h1{
+    margin-top: 20px;
+    font-size: x-large;
+    color: white;
+
+
+  }
+  .rdv{
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+  }
+  /* corpsprofil.css */
+
+.commentaires {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+}
+
+.commentaires h3 {
+  color: #333;
+}
+
+.commentaires ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.commentaires li {
+  border-bottom: 1px solid #ddd;
+
+  padding: 10px 0;
+}
+
+.commentaires textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+ 
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.commentaires button {
+  background-color:blue;
+  
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.commentaires button:hover {
+  background-color:blue;
+}
+#ss {
+  background-color:blue;
+  margin-left: 50px;
+
+  color: white;
+  padding: 3px 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#ss:hover {
+  background-color:blue;
+}
